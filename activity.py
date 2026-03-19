@@ -1,8 +1,6 @@
-Age = int(input("Enter your age: "))
-
-if Age < 10:
-    print("You are not allowed (Too Young!)")
-elif Age <= 20:
-    print("You are allowed in the class")
-else:
-    print("You are not allowed (Too Old!)")
+num = int(input("Enter the base number: "))
+pwr = int(input("Enter the power: "))
+result = 1
+for i in range(pwr):
+    result = result * num
+print("Result is:", result)
