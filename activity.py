@@ -1,15 +1,7 @@
-number = int(input("Enter a number: "))
-count = 0
-temp = number
-if temp > 0:
-    while temp > 0:
-        temp //= 10
-        count += 1
-elif temp < 0:
-    temp = -temp 
-    while temp > 0:
-        temp //= 10
-        count += 1
-else:
-    count = 1
-print("Total digits:", count)
+rows = int(input("Enter the number of rows:")) 
+for i in range(1, rows + 1):
+    for j in range(rows - i):
+        print(" ", end="")
+    for k in range(i):
+        print("*", end="")
+    print()
