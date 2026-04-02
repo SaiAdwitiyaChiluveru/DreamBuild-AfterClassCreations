@@ -1,7 +1,6 @@
-rows = int(input("Enter the number of rows:")) 
-for i in range(1, rows + 1):
-    for j in range(rows - i):
-        print(" ", end="")
-    for k in range(i):
-        print("*", end="")
-    print()
+import turtle
+pen = turtle.Turtle()
+for i in range(4):
+    pen.forward(100)
+    pen.left(90)
+turtle.done()
