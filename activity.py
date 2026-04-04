@@ -1,5 +1,3 @@
-char = input("Enter a character: ")
-if ('a' <= char <= 'z') or ('A' <= char <= 'Z'):
-    print(char, "This character is an alphabet.")
-else:
-    print(char, "This character is not an alphabet.")
+number = float(input("Enter a number to find its square root: "))
+square_root = number ** 0.5
+print("The square root of", number, "is", square_root)
